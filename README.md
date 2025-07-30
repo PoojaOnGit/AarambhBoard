@@ -1,5 +1,7 @@
 # 🚀AarambhBoard 
 
+This is our first git repository together .
+
 ## New dashboard project 
 
 🌟 Day 1 Summary: Project Initialization
