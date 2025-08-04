@@ -1,9 +1,6 @@
-import { useState } from 'react';
+import DashboardGrid from './components/DashboardGrid';
 
 function App() {
-  const [name, setName] = useState('');
-  const [count, setCount] = useState(0);
-
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>Counter: {count}</h1>
@@ -16,7 +13,7 @@ function App() {
         placeholder="Type your name"
         onChange={(e) => setName(e.target.value)}
       />
-      <h2>{name ? `Hello, ${name}!` : 'Please enter your name.'}</h2>
+      <h2>{name ? 'Hello,${name}! ': 'Please enter your name.'}</h2>
     </div>
   );
 }
